@@ -1,0 +1,100 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    text-decoration: none!important;
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav{
+    display:flex;
+    width:100%;
+    background: #3E3E3E;
+    position:relative;
+    justify-content:space-between;
+    text-align:center;
+    padding:15px 30px;
+}
+/* .neon{
+    width: 100%;
+    border: 2px solid #fff;
+    box-shadow:0 0 10px #00abfa, 0 0 10px #00abfa, 0 0 10px #00abfa;
+    filter:drop-shadow(0 0 10px #00abfa);
+} */
+nav .logo{
+    font-size:35px;
+    font-weight: 800;
+    color: #fff;
+    cursor: pointer;
+}
+nav .logo span{
+    color:#fff;
+    text-shadow: 0 0 5px #00abfa,0 0 15px #00abfa;
+}
+nav ol{
+    display: flex;
+    list-style: none;
+    margin:auto 0;
+}
+nav ol li{
+    margin:0 2px;
+}
+nav ol li a{
+    color:#fff;
+    font-size: 20px;
+    text-decoration: none;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    padding: 5px 10px;
+    text-decoration: none;
+}
+nav ol li:hover a{
+    border-radius: 3px;
+    background: #fff;
+    color: #00abfa;
+}
+
+/***** barra de busqueda *****/
+nav .busqueda{
+    display:flex;
+    margin: auto 0;
+    height: 35px;
+    line-height: 35px;
+}
+nav .busqueda input{
+    border: none;
+    outline: none;
+    background: #fff;
+    height: 100%;
+    padding: 0 10px;
+    font-size:20px;
+    width:350px;
+    border-radius:30px 0px 0px 30px;
+}
+nav .busqueda span{
+    color: #00abfa;
+    font-size: 20px;
+    background: #fff;
+    height: 100%;
+    padding: 8px;
+    position: relative;
+    cursor: pointer;
+    z-index: 1;
+    border-radius:0px 30px 30px 0px;
+}
+nav .busqueda span:hover{
+    color: #fff;
+    background:#1188be;
+}
+/***** End barra de busqueda *****/
+/* nav .busqueda span::after{
+    height: 100%;
+    width: 0%;
+    content: "";
+    background:#1188be;
+    position: absolute;
+    top:0;
+    right:0;
+    z-index: -1;
+    transition: 0.3s;
+    border-radius:90px 90px 90px 90px;
+} */

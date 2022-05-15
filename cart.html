@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Carrito</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <link rel="stylesheet" href="css/cart.css" />
+    <!-- Bootstrap CSS v5.0.2 -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://kit.fontawesome.com/24eae91c56.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body style="background: #1B1B1B;">
+    <header>
+      <iframe src="header.html" style="border:none; width:100%; height:139px" title="header" scrolling="no"></iframe>
+    </header>
+    <div class="cart-container">
+        <h1>Carrito</h1>
+        <hr>
+        <div class="cart-body">
+            <div class="cart-content">
+                <table class="cart-table">
+                  <thead class="tc">
+                    <tr>
+                      <th>Imagen</th>
+                      <th>Descripcion</th>
+                      <th>Precio/u</th>
+                      <th>Unidades</th>
+                      <th>Subtotal</th>
+                      <th>Eliminar</th>
+                    </tr>
+                  </thead>
+                  <tbody class="tc">
+                    <tr class="cart-item">
+                      <td>
+                        <img src="pictures/ram.png" alt="" class="reduce" />
+                      </td>
+                      <td>Lorem ipsum dolor sit amet.</td>
+                      <td>$345.00</td>
+                      <td>
+                        <form method="POST">
+                          <div class="number-input white">
+                            <button class="cart-quantity-ct">
+                              <i class="fa-solid fa-minus"></i>
+                            </button>
+                            <input class="cart-quantity-number" type="number" />
+                            <button class="cart-quantity-ct">
+                              <i class="fa-solid fa-plus"></i>
+                            </button>
+                          </div>
+                        </form>
+                      </td>
+                      <td>$435.00</td>
+                      <td class="tc">
+                        <button class="btn btn-danger">
+                          <i class="fa-solid fa-trash"></i>
+                        </button>
+                      </td>
+                    </tr>
+                    <tr class="cart-item">
+                      <td>
+                        <img src="pictures/ram.png" alt="" class="reduce" />
+                      </td>
+                      <td>Lorem ipsum dolor sit amet.</td>
+                      <td>$345.00</td>
+                      <td>
+                        <form method="POST">
+                          <div class="number-input white">
+                            <button class="cart-quantity-ct">
+                              <i class="fa-solid fa-minus"></i>
+                            </button>
+                            <input class="cart-quantity-number" type="number" />
+                            <button class="cart-quantity-ct">
+                              <i class="fa-solid fa-plus"></i>
+                            </button>
+                          </div>
+                        </form>
+                      </td>
+                      <td>$435.00</td>
+                      <td class="tc">
+                        <button class="btn btn-danger">
+                          <i class="fa-solid fa-trash"></i>
+                        </button>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+            </div>
+      
+            <aside class="card-total">
+              <div class="cart-checkout">
+                <h2 class="tc">Total De La Compra</h2>
+                <div class="cart-checkout-box">
+                  <div class="cart-subtotal">
+                    <div class="cart-subtotal-label">Subtotal</div>
+                    <div class="cart-subtotal-number">$1560</div>
+                  </div>
+                  <div class="cart-shipping">
+                    <div class="cart-shipping-label">Envio</div>
+                    <div class="cart-subtotal-number">$0</div>
+                  </div>
+                </div>
+                <div class="cart-total">
+                  <div class="cart-total-label">total</div>
+                  <div class="cart-total-number">$1560.00</div>
+                </div>
+                <button class="btn-payment">Comprar</button>
+              </div>
+            </aside>
+        </div>
+      <div class="cart-container">
+        <a class="cart-to-home" href="index2.html">
+          <i class="fas fa-long-arrow-alt-left" style="margin-right: 5px"></i>
+          Volver A Comprar
+        </a>
+      </div>
+    </div>
+    <div style="height:452px">
+      <iframe src="footer.html" style="border:none; width:100%; height: 100%;" title="header" scrolling="no"></iframe>
+    </div>
+    <!-- Bootstrap JavaScript Libraries -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+      integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+      integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
