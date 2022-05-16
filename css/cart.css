@@ -1,0 +1,253 @@
+/***** imagenes *****/
+.reduce{/*hay que cambiarlo indicando toda la ruta de la imagen para que se cambie en todas y no solo donde se ponga la clase*/
+    width: 100px;
+    height: 100px;
+}
+/***** End imagenes *****/
+
+/* .border{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: large;
+    text-transform: capitalize;
+    color: rgb(54, 54, 54);
+    border: 1px solid #000;
+    width: 100%;
+    margin-top: 20px;
+} */
+/*esto se puede hacer con boostrap para centrar el texto en la tabla*/
+.tc {
+    text-align: center;
+}
+
+
+.cart-container {
+    padding-top: 100px;
+    max-width: 1300px;
+    margin: 0 auto;
+}
+.cart-container h1{
+    font-weight: 700;
+    font-size: 24px;
+    color: #fff;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+}
+.cart-container hr{
+    color: #fff;
+}
+
+.cart-container h2 {
+    font-weight: 700;
+    font-size: 24px;
+    color: #000;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+.cart-body {
+    margin-top: 100px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.cart-content {
+    width: 65%;
+    color: #fff;
+}
+
+.cart-table {
+    width: 100%;
+}
+
+.cart-item {
+    /* display: flex; */
+    align-items: center;
+    padding: 10px 0;
+    margin-bottom: 10px;
+    width: 100%;
+    border-bottom: 1px solid #ffffff;
+}
+
+/* .cart-item img {
+    height: 132px;
+    width: 90px;
+    object-fit: cover;
+    margin: 0 20px 0 15px;
+} */
+
+.cart-checkout {
+    width: 100%;
+    background-color: #fafafa;
+}
+
+
+
+.cart-quantitys {
+    width: 300px;
+    text-align: center;
+}
+
+.cart-quantity-number {
+    width:40px;
+    margin: 0;
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+
+.cart-quantity-ct {
+    background-color: #00abfa;
+    outline: none;
+    padding: 0px 6px;
+    border: 1px solid #fff;
+    color: #fff
+}
+
+.cart-quantity-ct:hover {
+    background-color: #1188be;
+}
+
+.cart-quantity-ct:focus {
+    outline: none;
+}
+
+
+.cart-to-home {
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    color: #7b7b7b;
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+.cart-to-home:hover{
+    color: #1188be;
+}
+
+.cart-checkout {
+    padding: 45px 35px;
+}
+
+.cart-checkout h2 {
+    font-weight: 700;
+    position: relative;
+    display: block;
+    font-size: 24px;
+    line-height: 36px;
+    margin-top: 0;
+    margin-bottom: 30px;
+    letter-spacing: 2px;
+}
+
+.cart-subtotal {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.cart-subtotal-label {
+    font-weight: 700;
+    padding-right: 30px;
+    border: 0;
+    font-size: 14px;
+    color: #080808;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.cart-subtotal-number {
+    font-size: 14px;
+}
+
+.cart-shipping {
+    display: flex;
+    margin-bottom: 15px;
+}
+
+.cart-shipping-label {
+    font-weight: 700;
+    padding-right: 30px;
+    border: 0;
+    font-size: 14px;
+    color: #080808;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.cart-shipping p {
+    width: 100%;
+}
+
+.cart-total {
+    display: flex;
+    margin-top: 20px;
+    padding: 20px 0;
+    border-top: 1px solid #e1e1e1;
+    justify-content: space-between;
+}
+
+.cart-total-label {
+    text-transform: uppercase;
+    padding-right: 30px;
+    border: 0;
+    font-size: 14px;
+    letter-spacing: 2px;
+    color: #080808;
+    font-weight: 700;
+}
+
+.cart-total-number {
+    text-transform: uppercase;
+    border: 0;
+    font-size: 24px;
+    letter-spacing: 2px;
+    color: #080808;
+    font-weight: 700;
+}
+
+.cart-payment-btn {
+    display: block;
+    width: 100%;
+    height: 60px;
+    text-align: center;
+    line-height: 60px;
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: 3px;
+    color: #fff;
+    background-color: var(--color-primary);
+}
+
+.cart-payment-btn:hover {
+    background-color: var(--color-primary-light);
+    color: #fff;
+}
+
+.cart-empty {
+    width: 1200px;
+    margin: 30px auto;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.btn-payment{
+    width: 100%;
+    height: 45px;
+    border-style: none;
+    border-radius: 3px;
+    color: #fff;
+    background: #00abfa;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.btn-payment:hover{
+    border-radius: 3px;
+    color: #fff;
+    background: #1188be;
+}
+

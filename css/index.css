@@ -86,8 +86,8 @@
   }
   
   .tarjeta {
-    border-radius: 2rem;
-    box-shadow: rgba(11, 11, 11, 0.08) 0 0 2rem;
+    border-radius: 3px;
+    box-shadow: rgba(0, 0, 0, 0.08) 0 0 2rem;
     border-style: black;
     grid-column-end: span 4;
     padding: 0,9rem;
@@ -113,7 +113,8 @@
   p {
     font-size: 1rem;
     line-height: 130%;/**espacio entre las lienas del parrafo */
-    text-align: justify;
+    /* text-align: justify; */
+    margin: 0 20px;
   }
   
   
@@ -147,4 +148,17 @@
     }
   
   }
+  .tarjeta p{
+    padding: 0, 25px;
+  }
+  .precio{
+    position:absolute;
+    top: 0;
+    right: 0px;
+    background-color: red;
+    color: #fff;
+    padding: 2px 7px 4px 21px;
+    clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 25% 100%, 0% 50%);
+  }
+
   
