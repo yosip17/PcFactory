@@ -1,0 +1,113 @@
+:root
+{
+    --blanco:#ffffff;
+    --oscuro:#212121;
+    --primario:#ffc107;
+    --secundario:#00abfa;
+    --gris:#757575;
+
+    --fiente-principal:3.8rem;
+}
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+    background: #1B1B1B;
+}
+
+.color{
+    background: #3E3E3E;
+}
+
+.boton
+{
+    border: none;
+    font-family: system-ui;
+    text-decoration: none;
+    background: #00abfa;
+    padding: 9px 23px;
+    color: #fff;
+    font-size: 17px;
+    text-transform: uppercase;
+    font-weight: 700;
+    border-radius: 3px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: .5rem;
+
+}
+
+.contenedor-campos{
+    display: grid;
+    grid-template-columns: 20% 20%;
+    column-gap: 5rem;
+}
+.formulario{
+    width: min(60rem, 100%);
+    margin-left: 1rem;
+    /*margin: 1rem;*/
+    /*text-align: center;*/
+    margin-left: 5rem;
+}
+
+.formulario fieldset{
+    border: 2rem;
+}
+.formulario legend{
+    font-size: 1rem;
+    text-transform:uppercase;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    margin-left: 0.95rem;
+    color: #ffffff;
+}
+.campo{
+    margin-bottom: 1rem;
+}
+.campo label{
+    color: var(--blanco);
+    font-weight:bold;
+    margin-bottom: 0.5rem;
+    display: block;
+}
+.input-text{
+    border: none;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+}
+.foto{
+
+    text-align: center;
+    margin-bottom: 1rem;
+}
+.imagen_usuario{
+    margin: 1rem;
+}
+.en{
+    margin-top: 2.1rem;
+}
+
+
+.parte{
+    display: grid;
+    grid-template-columns: 25% 85%;
+}
+.izquierda{
+    margin-top: 4rem;
+    margin-left: -4rem;
+}
+.derecha{
+    margin-left: 5rem;
+}
+.enviar{
+    margin-bottom: 0.5rem;
+}
