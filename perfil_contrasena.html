@@ -1,26 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <title>Contraseña</title>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/perfil.css">
 </head>
 <body>
+
+    <header>
+        <iframe src="header.html" style="border:none; width:100%; height:139px" title="header" scrolling="no"></iframe>
+    </header>
+
+    <section class="parte" >
+        <div class="izquierda">
+          <form class="formulario foto">
+            <fieldset>
+      
+              <article class="imagen_usuario">
+                <img src="pictures/usuario.jpg" alt="">
+              </article>
+      
+                <div class="enviar alinear-izquierda flex">
+                    <!--<input class="boton prin1" type="submit" value="Informacion"> -->
+                    <a href="perfil.html" class="boton prin1" target="_parent"> Informacion</a>
+                    <!--<a href="perfil_contacto.html" class="boton prin" target="_parent"> Informacion contacto </a>-->
+                </div>
+      
+                <div class="enviar alinear-izquierda flex">
+                    <!--<input class="boton prin2" type="submit" value="Imagen"> -->
+                    <a href="perfil_imagen.html" class="boton prin2" target="_parent"> Imagen</a>
+                </div>
+      
+                <div class="enviar alinear-izquierda flex">
+                 <!-- <input class="boton prin3" type="submit" value="Contraseña"> -->
+                  <a href="perfil_contrasena.html" class="boton prin3" target="_parent"> Contraseña</a>
+              </div>
+            </fieldset>
+          </form>
+        </div>
+    </section>
+
     <section>
-        <form class="formulario">
+        <form class="formulario formulario-contraseña">
             <fieldset>
                 <legend>Nueva Contraseña</legend>
                 <div class="contenedor-campos">
-                    <div class="campo">
+                    <div class="campo titulo-contraseña">
                         <label>Contraseña Actual</label>
                         <input class="input-text" type="password" placeholder="Contraseña Actual" />
                     </div>
-                    <div class="campo">
+                    <div class="campo campo-contraseña">
                         <label>Contraseña Nueva</label>
                         <input class="input-text" type="password" placeholder="Contraseña Nueva">
                     </div>
-                    <div class="campo">
+                    <div class="campo ">
                         <label>Confirmar contraseña Nueva</label>
                         <input class="input-text" type="password" placeholder="Confirmar contraseña Nueva" />
                     </div>
@@ -31,5 +66,11 @@
             </fieldset>
         </form>
     </section>
+
+    <div style="height:452px">
+        <iframe src="footer.html" style="border:none; width:100%; height: 100%;" title="header" scrolling="no"></iframe>
+    </div>
+
 </body>
 </html>
+ 
