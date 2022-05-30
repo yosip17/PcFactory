@@ -1,50 +1,66 @@
 [
     {
         "id": 1,
-        "precio": 500,
-        "descripcion": "Lorem ipsum dolor, sit amet consectetur adipisicing elit.",
-        "imagen": "data:image/png;base64,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"
+        "nombre":"Intel Core i5-11400F 2.6 GHz",
+        "precio": 3100,
+        "descripcion": "Procesador de escritorio Intel® Core ™ i5-11400F de 11.ª generación sin gráficos de procesador.",
+        "descDetallada": "Procesador de escritorio Intel® Core ™ i5-11400F de 11.ª generación sin gráficos de procesador. Con soporte PCIe Gen 4.0. Optimizado para juegos, creación y productividad. Se requieren gráficos discretos. Solución térmica incluida en la caja. Compatible con placas base basadas en chipset de la serie 500 y selecta serie 400. Consulte al proveedor de la placa base para conocer los detalles de compatibilidad. 65W",
+        "imagen": "pictures/inteli5.png"
     },
     {
         "id": 2,
-        "precio": 700,
-        "descripcion": "tarjeta2",
-        "imagen": "pictures/ram.png"
+        "nombre":"AMD Ryzen 5 5500 3.6GHz",
+        "precio": 2800,
+        "descripcion": "AMD Ryzen 5 5500 3.6GHz ",
+        "descDetallada": "Los procesadores para juegos mejor valorados del mundo se llaman AMD Ryzen™ Serie 5000. Cuando cuentas con la arquitectura de procesadores de escritorio más avanzada del mundo para jugadores y creadores de contenido, las posibilidades son infinitas. Ya sea que juegues los juegos más recientes, diseñes el próximo rascacielos o proceses datos, necesitas un procesador poderoso que pueda dar respuesta a todas estas demandas, y más. Sin lugar a dudas, los procesadores para computadoras de escritorio AMD Ryzen™ serie 5000 elevan el nivel de expectativa para jugadores y artistas por igual.",
+        "imagen": "pictures/ryzen5.png"
     },
     {
         "id": 3,
-        "precio": 500,
-        "descripcion": "Lorem ipsum dolor, sit amet consectetur adipisicing elit.",
-        "imagen": "pictures/hardware-pc.png"
+        "nombre":"Intel Core i5-12600K 4.9 GHz",
+        "precio": 6200,
+        "descripcion": "Procesador de escritorio desbloqueado Intel® Core ™ i5-12600K de 12.ª generación.",
+        "descDetallada": "Procesador de escritorio desbloqueado Intel® Core ™ i5-12600K de 12.ª generación. Con compatibilidad con PCIe Gen 5.0 y 4.0, compatibilidad con DDR5 y DDR4, los procesadores de escritorio Intel® Core ™ de 12.ª generación desbloqueados están optimizados para la productividad, los juegos y el overclocking. Solución térmica NO incluida en la caja. Compatible con placas base de 125W basadas en chipset de la serie 600.",
+        "imagen": "pictures/inteli512.png"
     },
     {
         "id": 4,
-        "precio": 500,
-        "descripcion": "Lorem ipsum dolor, sit amet consectetur adipisicing elit.",
-        "imagen": "pictures/ram.png"
+        "nombre":"Asus TUF GAMING X570-PRO (WI-FI)",
+        "precio": 4300,
+        "descripcion": "Tarjeta Madre ASUS ATX TUF GAMING X570-PRO (WI-FI) AMD X570,128GB DDR4 para AMD ",
+        "descDetallada": "TUF Gaming X570-Pro (Wi-Fi) destila los elementos esenciales de la última plataforma AMD y los combina con funciones listas para jugar y durabilidad comprobada. Diseñadas con componentes de grado militar, soluciones de energía mejoradas y un conjunto completo de opciones de enfriamiento, estas placas base brindan un rendimiento sólido con una estabilidad de juego inquebrantable.  Cuando construye con una placa base TUF Gaming, también se beneficia de TUF Gaming Alliance, una colaboración de ASUS con socios industriales de confianza que garantiza una construcción más fácil, la mejor compatibilidad y una estética complementaria desde los componentes hasta la carcasa.",
+        "imagen": "pictures/asusMotherTUF.png"
     },
     {
         "id": 5,
-        "precio": 500,
-        "descripcion": "Lorem ipsum dolor, sit amet consectetur adipisicing elit.",
-        "imagen": "pictures/ram.png"
+        "nombre":"Gigabyte B560M DS3H V2",
+        "precio": 1600,
+        "descripcion": "Placa base Intel® B560 ultra duradera con VRM digital directo de 6 + 2 fases.",
+        "descDetallada": "Placa base Intel® B560 ultra duradera con VRM digital directo de 6 + 2 fases, diseño PCIe 4.0 * completo, PCIe 4.0 M.2, LAN para juegos GIGABYTE 8118, audio HD de 8 canales con tapas de audio, USB TYPE-C®, RGB FUSION 2.0 , Q-Flash Plus",
+        "imagen": "pictures/gigabyteMother.png"
     },
     {
         "id": 6,
-        "precio": 500,
-        "descripcion": "Lorem ipsum dolor, sit amet consectetur adipisicing elit.",
-        "imagen": "pictures/ram.png"
+        "nombre":"Gigabyte GeForce GTX 1660 SUPER OC 6GB GDDR6",
+        "precio": 6200,
+        "descripcion": "Tarjeta de Video NVIDIA GeForce GTX 1660 SUPER OC, 6GB, 192-bit GDDR6, PCI Express x16 ",
+        "descDetallada": "El sistema de enfriamiento WINDFORCE 2X cuenta con 2 ventiladores de aspas únicos de 90 mm, ventilador giratorio alternativo, una GPU de contacto directo de tubería de calor de cobre compuesto y funcionalidad de ventilador activo 3D, entregando una capacidad efectiva de disipación de calor para un mayor rendimiento a temperaturas más bajas.",
+        "imagen": "pictures/gtx1660.png"
     },
     {
         "id": 7,
-        "precio": 500,
-        "descripcion": "Lorem ipsum dolor, sit amet consectetur adipisicing elit.",
-        "imagen": "pictures/ram.png"
+        "nombre":"MSI GeForce GTX 1650 4GB GDDR6",
+        "precio": 2300,
+        "descripcion": "Con su diseño minimalista, con colores neutrales y aspecto industrial, la tarjeta gráfica Ventus XS de MSI puede encajar en muchos diseños de PC.",
+        "descDetallada": "Un nuevo diseño de doble ventilador, VENTUS muestra con orgullo sus formas industriales en colores neutros para adaptarse a cualquier construcción. Utilizando dos de los premiados a los fans de RX 2. 0, las tarjetas gráficas MSI Venture proporcionan años de rendimiento de refrigeración de primera clase. Una placa trasera resistente ayuda a fortalecer la tarjeta gráfica y complementa el diseño para verse aún mejor.",
+        "imagen": "pictures/gtx1650.png"
     },
     {
         "id": 8,
-        "precio": 500,
-        "descripcion": "Lorem ipsum dolor, sit amet consectetur adipisicing elit.",
-        "imagen": "pictures/ram.png"
+        "nombre":"PNY XLR8 RGB DDR4 3200 PC4-25600 16GB 2x8GB CL16",
+        "precio": 1400,
+        "descripcion": "Obtén una experiencia de color deslumbrante combinada con extremo rendimiento. Los módulos XLR8 combinan componentes y circuitos integrados de primer nivel",
+        "descDetallada": "La memoria XLR8 premium de PNY presenta nuestras velocidades más agresivas, mayor ancho de banda, menor latencia y consumo de energía. El rendimiento térmico más avanzado para la máxima estabilidad de la PC y capacidad de respuesta durante juegos y aplicaciones intensivos en memoria utilizar. Los módulos de memoria PNY XLR8 DDR4 están rigurosamente diseñados y probado para garantizar el máximo rendimiento incluso en los más difíciles entornos de juego",
+        "imagen": "pictures/pnyRam.png"
     }
 ]
