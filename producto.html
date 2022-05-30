@@ -17,6 +17,9 @@
 
     <!-- Bootstrap star-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- <link rel="stylesheet" href="css/productos.css">-->
+    <link rel="stylesheet" href="css/producto.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <style>
@@ -46,13 +49,13 @@
 
 <body>
     <header>
-        <iframe src="header.html" style="border:none; width:100%" title="header" scrolling="no"></iframe>
+        <iframe src="header.html" style="border:none; height: 139px; width:100%" title="header" scrolling="no"></iframe>
     </header>
 
-    <div class="row">
+    <div class="row title-row">
         <div class="col-lg-2"></div>
         <div class="col-lg-8">
-            <h1>Memoria RAM</h1>
+            <h1 id="nombre">Memoria RAM</h1>
         </div>
         <div class="col-lg-2"></div>
     </div>
@@ -60,10 +63,10 @@
     <div class="row">
         <div class="col-lg-2"></div>
         <div class="col-lg-2">
-            <img class="article" src="pictures/ram.png">
+            <img class="article" src="pictures/ram.png" id="imagen">
         </div>
-        <div class="col-lg-5">
-            <div>
+        <div class="col-lg-4">
+            <div id="caracteristicas">
                 <ul>
                     <li>Tipo de memoria interna: DDR4</li>
                     <li>Memoria interna: 16 GB</li>
@@ -90,20 +93,23 @@
                     <span id="star5" class="fa fa-star unchecked"></span>
                 </button>
             </div>
+            <div id="precio" class="text-white">
+                Precio:
+            </div>
         </div>
-        <div class="col-lg-1">
-            <button class="btn btn-outline-secondary">Carrito</button>
-            <a href="" data-id="1" class="btn-add-cart">añadir al carrito</a>
-            <br>
-            <button class="btn btn-outline-secondary">Equipo</button>
+        <div class="col-lg-2">
+                <a class="btn" href="cart.html">Añadir al carrito</a>
+                <br>
+                <br>
+                <a class="btn" href="pcbuild.html">Añadir al equipo</a>
         </div>
         <div class="col-lg-2"></div>
     </div>
     <div class="row">
         <div class="col-lg-2"></div>
-        <div class="col-lg-8 border">
+        <div class="col-lg-8 border rounded description">
             <h2>Descripción</h2>
-            <p>
+            <p id="descripcion">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec laoreet efficitur vehicula. Nunc
                 porttitor dolor id dui iaculis iaculis.
                 Maecenas porttitor venenatis augue eget efficitur. Phasellus accumsan ex ante, ac tempus dui semper sit
@@ -130,7 +136,10 @@
         <iframe src="footer.html" style="border:none; width:100%; height: 100%;" scrolling="no" title="footer"></iframe>
     </div>
 </body>
+<!-- Este script toma un producto de la base de datos y lo pinta en esta pagina -->
+<script src="js/producto.js"></script>
 <script>
+    // Script para añadir interactividad con las estrellas del producto
     var starDictionary = {"star1": false, "star2": false, "star3": false, "star4": false, "star5": false};
     function starBehaviour(id) {
         if (starDictionary[id]) {

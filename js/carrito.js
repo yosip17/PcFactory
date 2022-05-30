@@ -26,6 +26,11 @@ const pintarCards = data =>{
         templateCard.querySelector("div p span").textContent = producto.precio;
         templateCard.querySelector("p.title").textContent = producto.descripcion;
         templateCard.querySelector(".btn-add-cart").dataset.id = producto.id;
+        //Crear link al producto dinamicamente, pasando el parametro al link
+        // El parametro es el id del producto
+        var params = new URLSearchParams();
+        params.append("pid",producto.id);
+        templateCard.querySelector(".btn-add-product").setAttribute("href","producto.html?"+params.toString())
         const clone = templateCard.cloneNode(true);
         fragment.appendChild(clone);
     });
